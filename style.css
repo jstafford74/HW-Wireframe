@@ -8,8 +8,27 @@
     content: " ";
     display: block;
     clear: both;
+    overflow:auto;
  }
   
+ .grid {
+  display: grid;
+  width: 960px;
+  grid-template-columns: 495px 1fr;
+  grid-column-gap: 20px;
+}
+
+.box1 {
+  background-color: #ebebeb;
+  margin-right:20px;
+  
+}
+
+.box2 {
+  background-color: #ebebeb;
+  
+  
+}
   
 
   body{
@@ -50,11 +69,10 @@
   aside{
     background: #ebebeb;
     /* max-width: 50%; */
-    padding: 10px;
-    width: 450px;
-    border: 1px solid white;
-    float:right;
-    
+    /* padding: 30px; */
+    margin-bottom: 20px;
+    /*width: 450px;
+    float: right;*/
 }
   
   h1{ 
